@@ -151,3 +151,14 @@ hr {
 small {
     font-weight: bold;
 }
+
+.blog-image {
+    max-width: 100%;
+    display: block;
+    
+    padding: 2rem 0rem;
+}
+
+p {
+    text-align: justify;
+}
