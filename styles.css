@@ -146,6 +146,7 @@ hr {
 .blog-title {
     color: var(--primary-color);
     margin-block-end: auto;
+    margin-block-start: 2rem;
 }
 
 small {
