@@ -3,10 +3,12 @@
 :root {
     --primary-color: #7C3AED;
     --dark-gray: #6B7280;
+    --off-white: #F3F4F6;
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
+    margin: 0px;
 }
 
 hr {
@@ -105,7 +107,32 @@ hr {
 }
 
 /* sections */
+.section {
+    padding: 2rem;
+}
+
 .section h1 {
     text-align: center;
-    padding: 2rem;
+    
+}
+
+.ow {
+    background-color: var(--off-white);
+}
+
+/* footer */
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link {
+    color: white;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
 }
