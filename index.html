@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,11 +13,13 @@
         color:red;
     }
 </style> -->
+
 <body>
-    <h1 >minakshi's component library</h1>
+    <h1>minakshi's component library</h1>
     <!--WAY-2
          <h1 style="color:red;">minakshi's component library</h1> -->
-    <p>I am attending neogcamp and I want to make a library which would make all my projects look good and consistent. </p>
+    <p>I am attending neogcamp and I want to make a library which would make all my projects look good and consistent.
+    </p>
 
     <hr>
 
@@ -44,42 +47,42 @@
 
     <h2>@lists</h2>
     <h3>unordered list</h3>
-    <ul>
+    <ul class="list-non-bullet">
         <li>Item One</li>
         <li>Item Two</li>
         <li>Item Three</li>
     </ul>
 
     <h3>inline unordered list</h3>
-    <ul>
-        <li>Inline Item One</li>
-        <li>Inline Item Two</li>
-        <li>Inlie Item Three</li>
+    <ul class="list-non-bullet">
+        <li class="list-item-inline">Inline Item One</li>
+        <li class="list-item-inline">Inline Item Two</li>
+        <li class="list-item-inline">Inlie Item Three</li>
     </ul>
 
     <h3>reversed ordered list</h3>
-    <ol>
+    <ol reversed>
         <li>Milk</li>
         <li>Eggs</li>
         <li>Bread</li>
     </ol>
 
     <hr />
-    
+
     <h2>@nav</h2>
-    <nav>
-        <div>iAmBrand</div>
-        <ul>
-            <li>
-                <a href="/">home</a>
+    <nav class="navigation container">
+        <div class="nav-brand">iAmBrand</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">home</a>
             </li>
 
-            <li>
-                <a href="/">products</a>
+            <li class="list-item-inline">
+                <a class="link" href="/">products</a>
             </li>
-            
-            <li>
-                <a href="/">about</a>
+
+            <li class="list-item-inline">
+                <a class="link" href="/">about</a>
             </li>
         </ul>
     </nav>
@@ -87,26 +90,25 @@
     <hr>
 
     <h2>@header</h2>
-    <header>
-        <img src="images/hero.svg">
-        <h1>Heading inside header/hero</h1>
+    <header class="hero">
+        <img class="hero-img" src="images/hero.svg">
+        <h1 class="hero-heading">Minakshi Mittal the <span class="heading-inverted">web developer</span></h1>
     </header>
 
     <hr>
 
-    <section>
-        <h2>@section</h2>
-        <h3>white section</h3>
+    <h2>@section</h2>
+    <section class="section">
+        <h1>white section</h1>
         <p>This will have white background.</p>
     </section>
 
-    <section>
-        <h2>@section</h2>
-        <h3>off-white section</h3>
+    <section class="section">
+        <h1>off-white section</h1>
         <p>This will have gray background.</p>
     </section>
 
-    <hr/>
+    <hr />
 
     <h2>@footer</h2>
     <footer>
@@ -115,12 +117,13 @@
             <li>socialone</li>
             <li>socialtwo</li>
             <li>socialthree</li>
-            
+
         </ul>
     </footer>
-    
-    
+
+
 
 
 </body>
+
 </html>
