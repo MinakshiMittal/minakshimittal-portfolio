@@ -96,8 +96,7 @@ hr {
 /* header */
 
 .hero {
-    padding: 2rem;
-    padding-top: 5rem;
+    padding: 1rem 0 0rem 0;
 }
 
 .hero .hero-img {
@@ -137,7 +136,7 @@ hr {
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
-    margin-top: 1em;
+    margin-top: 30px;
 }
 
 .footer .footer-header {
@@ -156,7 +155,8 @@ hr {
 .blog-title {
     color: var(--primary-color);
     margin-block-end: auto;
-    margin-block-start: 2rem;
+    margin-block-start: 4rem;
+    padding: 0.5rem 1rem 0.5rem 0;
 }
 
 small {
@@ -174,7 +174,7 @@ p {
     text-align: justify;
 }
 
-.project-title {
+.project-title, .blog-title {
     margin-block-start: 4rem;
 }
 
