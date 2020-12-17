@@ -192,6 +192,7 @@ span {
 @media (max-width:720px) {
     .hero .hero-img {
         width: 360px;
+        margin: 3rem 0;
     }
 
     body {
@@ -207,7 +208,8 @@ span {
         padding: 2rem 3rem;
     }
 
-    .link-primary a, .link-secondary a {
-        display: block;
+    .section h1 {
+        text-align: left;
     }
+
 }
