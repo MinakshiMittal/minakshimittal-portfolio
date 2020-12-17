@@ -202,4 +202,8 @@ span {
         display: inline;
         padding: 0 0.2rem;
     }
+
+    .section {
+        margin: 1rem auto;
+    }
 }
