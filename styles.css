@@ -192,7 +192,7 @@ span {
 @media (max-width:720px) {
     .hero .hero-img {
         width: 360px;
-        margin: 3rem 0;
+        margin: 3rem auto;
     }
 
     body {
