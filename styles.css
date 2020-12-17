@@ -206,4 +206,8 @@ span {
     .section {
         padding: 2rem 3rem;
     }
+
+    .link-primary a, .link-secondary a {
+        display: block;
+    }
 }
