@@ -8,7 +8,8 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    margin: 0px;
+    margin: auto;
+    max-width: 800px;
 }
 
 hr {
@@ -57,7 +58,6 @@ hr {
 
 
 /* lists */
-
 .list-non-bullet {
     list-style: none;
 }
@@ -95,19 +95,16 @@ hr {
 
 /* header */
 
-.hero {
-    padding: 1rem 0 0rem 0;
-}
-
 .hero .hero-img {
     max-width: 450px;
+    max-height: 55.4vh;
     display: block;
     margin: auto;
 }
 
 .hero .hero-heading {
     color: var(--dark-gray);
-    padding: 2rem;
+    padding-top: 3rem;
     text-align: center;
 }
 
@@ -115,9 +112,15 @@ hr {
     color: var(--primary-color);
 }
 
+.home {
+    margin-top: 2.5rem;
+    padding: 2rem;
+}
+
 /* sections */
 .section {
-    padding: 2rem;
+    padding: 1rem 2rem 2rem 4rem;
+    max-width: 800px;
 }
 
 .section h1 {
@@ -136,7 +139,7 @@ hr {
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
-    margin-top: 30px;
+    /* margin-top: 30px; */
 }
 
 .footer .footer-header {
@@ -174,9 +177,9 @@ p {
     text-align: justify;
 }
 
-.project-title, .blog-title {
+/* .project-title, .blog-title {
     margin-block-start: 4rem;
-}
+} */
 
 span {
     font-size: larger;
