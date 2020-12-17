@@ -194,6 +194,10 @@ span {
         width: 370px;
     }
 
+    body {
+        max-width: 100%;
+    }
+
     .navigation {
         padding-right: 0.1rem;
         padding-left: 0.1rem;
