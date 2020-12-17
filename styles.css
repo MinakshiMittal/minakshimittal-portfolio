@@ -198,8 +198,8 @@ span {
         max-width: 100%;
     }
 
-    .navigation {
-        padding-right: 0.1rem;
-        padding-left: 0.1rem;
+    .list-item-inline {
+        display: inline;
+        padding: 0 0.2rem;
     }
 }
